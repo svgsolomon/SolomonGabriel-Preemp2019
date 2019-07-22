@@ -92,6 +92,7 @@ a {
 }
 .container_low {
   display: flex;
+  justify-content: center;
 }
 .left_container {
   width: 20%;
@@ -99,6 +100,7 @@ a {
 .right_container {
   width: 75%;
   display: flex;
+  flex-wrap: wrap;
 }
 .main-menu {
   margin: -10% 15%;
@@ -115,7 +117,11 @@ a {
 }
 .second_line {
   display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
-.filter {
+.filter li {
   display: flex;
+  display: inline-flex;
+  justify-content: space-between;
 }
