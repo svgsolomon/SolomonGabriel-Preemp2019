@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <a href="" onclick="console.log('mesaj inline')" id="link_google"
+        >someting</a
+      >
+    </div>
+    <!-- EXEMPLUL 1 -->
+    <!-- <script>
+      window.onload = function() {
+        var link = document.getElementById("link_google");
+        link.onclick = function() {
+          console.log("clicked on link");
+        };
+      };
+      window.onload = function() {
+        console.log("Second load");
+      };
+    </script> -->
+    <!-- EXEMPLUL 2 -->
+    <!-- <script>
+      var link = document.getElementById("link_google");
+      link.addEventListener("mouseenter", function(event) {
+        console.log("Hover on link", event.target.text);
+      });
+      link.addEventListener(
+        "mouseenter",
+        function() {
+          console.log("Hover once");
+        },
+        { once: true }
+      );
+    </script> -->
+    <!-- EXEMPLUL 3 -->
+    <!-- <script>
+      var link = document.getElementById("link_google");
+      function eventHandler() {
+        console.log("Hover once");
+      }
+      link.addEventListener("mouseenter", eventHandler, { capture: false });
+      link.removeEventListener("mouseenter", eventHandler, true);
+    </script> -->
+    <!-- EXEMPLUL 4 -->
+    <script>
+      var link = document.getElementById("link_google");
+      function eventHandler(event) {
+        console.log(event.type + " on: ", event.target.nodeName);
+      }
+      window.addEventListener("click", function() {
+        document.documentElement.requestFullscreen();
+      });
+      document.addEventListener("fullscreenchange", eventHandler);
+      link.addEventListener("mouseout", eventHandler);
+      var event = new Event("click");
+      window.addEventListener(
+        "build",
+        function(event) {
+          console.log(event.type);
+        },
+        false
+      );
+      window.dispatchEvent(event);
+    </script>
+    <!-- EXEMPLUL 5 -->
+    <!-- <div id="all" style="padding: 20px; border:1px solid red">
+      <div id="page" style="padding: 20px; border:1px solid blue;">
+        <div
+          id="container"
+          style="padding: 20px; border:1px solid green;"
+        ></div>
+      </div>
+    </div>
+
+    <script>
+      var container = document.getElementById("container");
+      var page = document.getElementById("page");
+      var all = document.getElementById("all");
+      function eventHandler(event) {
+        console.log(event.type + " on: " + event.currentTarget.id);
+        event.stopPropagation();
+      }
+      page.addEventListener("click", eventHandler, true);
+      container.addEventListener("click", eventHandler);
+      all.addEventListener("click", eventHandler, true); -->
+    </script>
+  </body>
+</html>
