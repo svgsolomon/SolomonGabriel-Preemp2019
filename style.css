@@ -19,26 +19,35 @@ li a {
 a {
   text-decoration: none;
 }
+text {
+  font-family: Helvetica, sans-serif;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
 }
 .header_container {
   display: flex;
   justify-content: center;
 }
-.top_container_left {
+.col-1 {
   width: 25%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
 }
 .title {
   color: white;
 }
-.top_container_right {
+.col-2 {
   width: 75%;
+  margin-left: 20px;
+}
+.col-1-spacing {
+  padding-bottom: 49px;
 }
 .top_menu {
   display: flex;
@@ -59,6 +68,7 @@ a {
   border: none;
   background-image: url("search_icon.png");
   background-repeat: no-repeat;
+  vertical-align: middle;
 }
 .button_menu form {
   display: flex;
@@ -90,20 +100,10 @@ a {
 .cart-img {
   vertical-align: middle;
 }
-.container_low {
-  display: flex;
-  justify-content: center;
-}
-.left_container {
-  width: 20%;
-}
-.right_container {
-  width: 75%;
-  display: flex;
-  flex-wrap: wrap;
-}
 .main-menu {
-  margin: -10% 15%;
+  width: 100%;
+  padding: 20px 0 40px 20px;
+  transform: translateY(-45px);
   background-color: rgba(255, 255, 255, 1);
   border-radius: 2px;
   box-shadow: 0px 8px 17px 4px rgba(121, 121, 121, 0.1);
@@ -111,17 +111,49 @@ a {
 
 .first_line {
   display: flex;
-  width: 100%;
   justify-content: space-between;
-  padding: 2% 3%;
 }
 .second_line {
   display: flex;
+
+  justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
 }
+.first_line,
+.second_line {
+  margin: 20px 0;
+}
 .filter li {
+  display: inline;
+  margin-right: 15px;
+}
+.shop_item img {
+  width: 100%;
+  height: auto;
+}
+.shop_item {
+  width: 160px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 2px;
+  box-shadow: 0px 8px 17px 4px rgba(121, 121, 121, 0.1);
+}
+.shop_list {
   display: flex;
-  display: inline-flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+.reclama img {
+  width: 100%;
+  height: auto;
+}
+.descriere,
+.price {
+  text-align: center;
+}
+.in-main-menu li a {
+  padding: 20px 0 40px 20px;
+  color: gray;
 }
