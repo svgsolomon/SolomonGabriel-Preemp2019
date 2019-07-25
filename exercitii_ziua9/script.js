@@ -23,18 +23,54 @@
 // }
 // console.log(sum(4)(5));
 // ex3
-var arr = new Array(
-  { nume: "Ion", varsta: 30 },
-  { nume: "Alex", varsta: 18 },
-  { nume: "Dan", varsta: 5 },
-  { nume: "Andrei", varsta: 5 },
-  { nume: "Cristi", varsta: 44 }
-);
-function medVarsta() {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    sum += arr[i].varsta / arr.length;
+// var arr = new Array(
+//   { nume: "Ion", varsta: 30 },
+//   { nume: "Alex", varsta: 18 },
+//   { nume: "Dan", varsta: 5 },
+//   { nume: "Andrei", varsta: 5 },
+//   { nume: "Cristi", varsta: 44 }
+// );
+// function medVarsta() {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum += arr[i].varsta / arr.length;
+//   }
+//   return sum;
+// }
+// console.log(medVarsta());
+// ex3 v2
+// var arr = new Array(
+//   { nume: "Ion", varsta: 30 },
+//   { nume: "Alex", varsta: 18 },
+//   { nume: "Dan", varsta: 5 },
+//   { nume: "Andrei", varsta: 5 },
+//   { nume: "Cristi", varsta: 44 }
+// );
+// function medVarsta(passedArray) {
+//   let sum = 0;
+//   passedArray.forEach(person => {
+//     sum += person.varsta;
+//   });
+//   return sum / passedArray.length;
+// }
+// console.log(medVarsta(arr));
+// ex4
+let myArray = [
+  {
+    nume: "Gabi",
+    varsta: 10,
+    getNume: function() {
+      return this.nume;
+    }
+  },
+  {
+    nume: "Ion",
+    varsta: 30,
+    getNume: function() {
+      return this.nume;
+    }
   }
-  return sum;
-}
-console.log(medVarsta());
+];
+myArray.forEach(persoana => {
+  console.log(persoana.getNume());
+});
