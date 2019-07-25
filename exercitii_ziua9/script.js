@@ -55,22 +55,22 @@
 // }
 // console.log(medVarsta(arr));
 // ex4
-let myArray = [
-  {
-    nume: "Gabi",
-    varsta: 10,
-    getNume: function() {
-      return this.nume;
-    }
-  },
-  {
-    nume: "Ion",
-    varsta: 30,
-    getNume: function() {
-      return this.nume;
-    }
-  }
-];
-myArray.forEach(persoana => {
-  console.log(persoana.getNume());
-});
+// let myArray = [
+//   {
+//     nume: "Gabi",
+//     varsta: 10,
+//     getNume: function() {
+//       return this.nume;
+//     }
+//   },
+//   {
+//     nume: "Ion",
+//     varsta: 30,
+//     getNume: function() {
+//       return this.nume;
+//     }
+//   }
+// ];
+// myArray.forEach(persoana => {
+//   console.log(persoana.getNume());
+// });
