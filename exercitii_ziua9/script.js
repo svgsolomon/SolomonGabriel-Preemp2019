@@ -74,3 +74,21 @@
 // myArray.forEach(persoana => {
 //   console.log(persoana.getNume());
 // });
+// ex 5
+let calculator = {
+  a: 0,
+  b: 0,
+  read: function() {
+    this.a = Number(prompt("Add first numebr", "Add first numebr"));
+    this.b = Number(prompt("Add second numebr", "Add second numebr"));
+  },
+  sum: function() {
+    return this.a + this.b;
+  },
+  mul: function() {
+    return this.a * this.b;
+  }
+};
+calculator.read();
+alert(calculator.sum());
+alert(calculator.mul());
