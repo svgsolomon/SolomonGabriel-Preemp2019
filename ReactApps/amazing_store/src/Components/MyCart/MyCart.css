@@ -1,0 +1,17 @@
+.myCart {
+  background: rgba(99, 100, 216, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  width: 11rem;
+  margin-left: 2vw;
+}
+.myCart-text {
+  color: #fff;
+}
+.count {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}

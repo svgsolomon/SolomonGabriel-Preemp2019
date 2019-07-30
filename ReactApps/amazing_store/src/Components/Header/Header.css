@@ -2,10 +2,13 @@
   display: flex;
   flex-direction: column;
   background-color: rgba(248, 203, 0, 1);
-  height: 12rem;
+  height: 8rem;
   padding: 3rem 8% 0 8%;
 }
 .header-top-container {
   display: flex;
   padding-top: 1rem;
+}
+.header-bottom-container {
+  display: flex;
 }

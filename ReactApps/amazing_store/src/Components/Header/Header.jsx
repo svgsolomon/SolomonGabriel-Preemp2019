@@ -4,6 +4,7 @@ import Logo from "../Logo/Logo";
 import Contact from "../Contact/Contact";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import SearchBar from "../SearchBar/SearchBar";
+import Mycart from "../MyCart/MyCart";
 
 class Header extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class Header extends React.Component {
         </div>
         <div className="header-bottom-container">
           <SearchBar />
+          <Mycart />
         </div>
       </div>
     );
