@@ -1,16 +1,14 @@
 import React from "react";
 import "../SideBar/SideBar.css";
+import "../../Acordeon/Acordeon";
+import Acordeon from "../../Acordeon/Acordeon";
+
 const SideBar = props => {
-  console.log("fooo", props);
-  const categories = Object.keys(props.categories);
-  console.log("categories array:", categories);
   return (
-    <div className="sidebar-container">
-      {categories.map((category, index) => {
+    <div>
+      {props.categories.map((category, index) => {
         return (
-          <button key={index} className="button-category-name">
-            {category}
-          </button>
+          <Acordeon key={index} title={category.key} value={category.value} />
         );
       })}
     </div>
