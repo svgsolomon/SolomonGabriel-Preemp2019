@@ -1,0 +1,30 @@
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8% 0 31%;
+}
+.pagination {
+  display: inline-flex;
+}
+.pagination h4 {
+  margin-right: 1.5rem;
+  align-self: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #666;
+}
+.arrows {
+  display: inline-flex;
+}
+.arrow-left,
+.arrow-right {
+  /* border: 1px solid #ccc; */
+  padding: 2px;
+  /* border-radius: 5px; */
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+.arrow-left {
+  margin-right: 0.5rem;
+}

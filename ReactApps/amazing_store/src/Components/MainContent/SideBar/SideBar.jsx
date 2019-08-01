@@ -5,7 +5,7 @@ import Acordeon from "../../Acordeon/Acordeon";
 
 const SideBar = props => {
   return (
-    <div>
+    <div className="sidebar-container">
       {props.categories.map((category, index) => {
         return (
           <Acordeon key={index} title={category.key} value={category.value} />

@@ -15,7 +15,11 @@ class Acordeon extends React.Component {
     let values = null;
     if (this.state.activ === true) {
       values = this.props.value.map((element, index) => {
-        return <li key={index}>{element}</li>;
+        return (
+          <li className="sidebar-items" key={index}>
+            {element}
+          </li>
+        );
       });
     }
     const toggleActiv = () => {

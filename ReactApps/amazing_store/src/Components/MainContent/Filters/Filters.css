@@ -1,0 +1,14 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  color: #666;
+  padding: 0 8% 0 31%;
+}
+.brand-filter,
+.skin-filter,
+.age-filter {
+  margin-right: 30px;
+}

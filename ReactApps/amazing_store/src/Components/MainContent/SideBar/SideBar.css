@@ -9,11 +9,10 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-}
-.button-category-name {
-  background: none;
-  outline: none;
-  border: none;
+  text-align: left;
+  list-style-type: none;
   cursor: pointer;
-  margin: 0.5rem;
+}
+.sidebar-items {
+  margin-left: 10%;
 }
