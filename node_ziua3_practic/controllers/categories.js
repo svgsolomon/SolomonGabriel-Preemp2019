@@ -8,7 +8,7 @@ const getCategories = (req, res) => {
 const getCategoriesById = (req, res) => {
   res.status(200).json(
     categories.filter(category => {
-      return category.id === req.params.id;
+      return category.id == req.params.id;
     })
   );
 };

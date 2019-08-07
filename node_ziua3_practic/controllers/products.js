@@ -7,7 +7,7 @@ const getProducts = (req, res) => {
 const getProductsById = (req, res) => {
   res.status(200).json(
     products.filter(product => {
-      return product.id === req.params.id;
+      return product.id == req.params.id;
     })
   );
 };
