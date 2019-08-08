@@ -1,15 +1,21 @@
-/* .toate_produsele {
+.toate_produsele {
   display: inline-flex;
 }
 .produs {
-  padding: 1rem;
+  /* padding: 1rem; */
   background: #fff;
   text-align: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
   cursor: pointer;
+  width: 330px;
+  height: 370px;
   margin: 3% 8% 0 31%;
-} */
+}
+.produs img {
+  width: 289px;
+  height: 265px;
+}

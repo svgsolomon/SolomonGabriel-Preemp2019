@@ -1,98 +1,51 @@
 [
   {
     "id": 1,
-    "name": "product 1",
-    "description": "Product description",
-    "price": 130.0,
-    "categories": [3],
-    "rating": 3.3
+    "poza": "https://cdn.shopify.com/s/files/1/1110/6964/products/0031095-300_grande.jpg?v=1481089978",
+    "descriere": "Missha All Around Safe Block Sebum Zero Sun",
+    "categories": ["3", "4"],
+    "pret": "$4.00"
   },
   {
     "id": 2,
-    "name": "product 2",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
+    "poza": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/beauty/Innisfree_Green_Tea_Balancing_Cream/Innisfree_Green_Tea_Balancing_Cream_L_1.jpg",
+    "descriere": "Innisfree Green Tea Balancing Cream",
+    "pret": "$18.00"
   },
   {
     "id": 3,
-    "name": "product 3",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
+    "poza": "https://images-na.ssl-images-amazon.com/images/I/31gf5jEz%2BfL._SX355_.jpg",
+    "descriere": "Claire’s Cloud 9 Blanc De Whitening Cream",
+    "pret": "$20.00"
   },
   {
     "id": 4,
-    "name": "product 4",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
+    "poza": "https://media.karousell.com/media/photos/products/2017/12/26/tonymoly_pure_eco_snail_moisture_gel_1514292559_f188317e.jpg",
+    "descriere": "Tonymoly Pure Eco Snail Moisture Gel",
+    "pret": "$8.00"
   },
   {
     "id": 5,
-    "name": "product 5",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
+    "poza": "https://cdn.shopify.com/s/files/1/1452/8808/products/skin79_fresh_garden_mask_snail.jpg?v=1503236267",
+    "descriere": "Skin79 Fresh Garden Mask - Snail",
+    "pret": "$2.00"
   },
   {
     "id": 6,
-    "name": "product 6",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
+    "poza": "https://cdn.shopify.com/s/files/1/0876/7414/products/Advanced_Snail_92_All_in_One_Cream_1024x1024.png?v=1550821867",
+    "descriere": "Cosrx Advanced Snail 92 All in One Cream",
+    "pret": "$24.00"
   },
   {
     "id": 7,
-    "name": "product 7",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
+    "poza": "https://images-na.ssl-images-amazon.com/images/I/41-XoAaF-1L._SY355_.jpg",
+    "descriere": "Innisfree Canola Honey Mask",
+    "pret": "$14.00"
   },
   {
     "id": 8,
-    "name": "product 8",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
-  },
-  {
-    "id": 9,
-    "name": "product 9",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
-  },
-  {
-    "id": 10,
-    "name": "product 10",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
-  },
-  {
-    "id": 11,
-    "name": "product 11",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
-  },
-  {
-    "id": 12,
-    "name": "product 12",
-    "description": "Product description",
-    "price": 99.0,
-    "categories": [3],
-    "rating": 3.3
+    "poza": "https://images-na.ssl-images-amazon.com/images/I/41dywOO8nmL._SY355_.jpg",
+    "descriere": "Scinic Honey Banana Cleansing Foam",
+    "pret": "$4.00"
   }
 ]
