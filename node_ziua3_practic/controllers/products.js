@@ -17,6 +17,11 @@ const getProductsFromCategoryById = (req, res) => {
       return product.categories.includes(req.params.id);
     })
   );
+  res.status(404).json(
+    products.filter(product => {
+      return product.categories.includes("erroe");
+    })
+  );
 };
 module.exports = {
   getProducts,
